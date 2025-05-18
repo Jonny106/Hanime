@@ -13,10 +13,10 @@ APP_ID = int(os.environ.get("APP_ID", "20911137"))
 API_HASH = os.environ.get("API_HASH", "b080f697ef213ff596d7ec0db46cb491")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002513113978"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002451809103"))
 
 # Owner ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7062003886"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "879520667"))
 
 # Port
 PORT = os.environ.get("PORT", "8122")
@@ -44,7 +44,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>𝙷𝚎𝚕𝚕𝚘 {first}\n\n
 
 # Admins list
 try:
-    ADMINS = [7568605154, 7062003886, 6688882307]
+    ADMINS = [8002331168]
     for x in (os.environ.get("ADMINS", "8156548943 7208536222 7568605154 7568605154 7062003886 7196015252 ").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -67,7 +67,7 @@ USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝙰𝚟𝚘𝚒𝚍 𝙳𝚒�
 
 # Append owner ID to admins
 ADMINS.append(OWNER_ID)
-ADMINS.append(7533047591)
+ADMINS.append(8002331168)
 
 # Log file name
 LOG_FILE_NAME = "filesharingbot.txt"
