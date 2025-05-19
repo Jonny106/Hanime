@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "879520667"))
 PORT = os.environ.get("PORT", "8064")
 
 # Database URL
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kaido0099878:XR5TnmaT55neAJ2U@cluster0.ksifz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Database Name
 DB_NAME = os.environ.get("DATABASE_NAME", "hanime")
