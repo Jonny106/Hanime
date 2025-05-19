@@ -22,10 +22,10 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "879520667"))
 PORT = os.environ.get("PORT", "8122")
 
 # Database URL
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Shortner:aloksingh@shortner.svh6f.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kaido0099878:XR5TnmaT55neAJ2U@cluster0.ksifz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Database Name
-DB_NAME = os.environ.get("DATABASE_NAME", "insta")
+DB_NAME = os.environ.get("DATABASE_NAME", "hanime")
 
 # Join Requests Database
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
