@@ -4,37 +4,37 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7273432607:AAGoN4Qv7SbFoCgKdK_8xpEMrtPBMvg3rsA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6410200141:AAEK7y2wi35UFc9_eTGdbjAU8Zjpzqg6DoY")
 
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29803966"))
+APP_ID = int(os.environ.get("APP_ID", "27604683"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "58d51659fe8038960a3db77d6e2c4265")
+API_HASH = os.environ.get("API_HASH", "ed52a1d0803b2ed84c5cca7f20535aac")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002451809103"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002164723858"))
 
 # Owner ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "879520667"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1264280791"))
 
 # Port
 PORT = os.environ.get("PORT", "8064")
 
 # Database URL
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jonnywaker002:WlPnEIcbNTY2jc47@jonny002.fgsyjqw.mongodb.net/?retryWrites=true&w=majority")
 
 # Database Name
-DB_NAME = os.environ.get("DATABASE_NAME", "hanime")
+DB_NAME = os.environ.get("DATABASE_NAME", "textfile002")
 
 # Join Requests Database
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 JOIN_REQS_DB2 = environ.get("JOIN_REQS_DB2", DB_URI)
 
 # Force sub channel id, if you want to enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002564979892"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002371777817"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002326952308"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002027994811"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 
 # Bot workers
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -44,7 +44,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>𝙷𝚎𝚕𝚕𝚘 {first}\n\n
 
 # Admins list
 try:
-    ADMINS = [8002331168]
+    ADMINS = [1264280791]
     for x in (os.environ.get("ADMINS", "8156548943 7208536222 7568605154 7568605154 7062003886 7196015252 ").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -67,7 +67,7 @@ USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝙰𝚟𝚘𝚒𝚍 𝙳𝚒�
 
 # Append owner ID to admins
 ADMINS.append(OWNER_ID)
-ADMINS.append(8002331168)
+ADMINS.append(1264280791)
 
 # Log file name
 LOG_FILE_NAME = "filesharingbot.txt"
