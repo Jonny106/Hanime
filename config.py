@@ -44,7 +44,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>𝙷𝚎𝚕𝚕𝚘 {first}\n\n
 
 # Admins list
 try:
-    ADMINS = [1264280791]
+    ADMINS = []
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
